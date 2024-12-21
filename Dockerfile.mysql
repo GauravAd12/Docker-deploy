@@ -1,5 +1,0 @@
-# Dockerfile for MySQL
-FROM mysql:8.0
-
-# Copy the initialization SQL script to MySQL's entrypoint directory
-COPY ./init.sql /docker-entrypoint-initdb.d/
