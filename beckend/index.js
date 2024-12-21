@@ -1,4 +1,3 @@
-// #backend/index.js
 const express = require('express');
 const mysql = require('mysql2');
 const app = express();
@@ -38,4 +37,3 @@ app.get('/api/users', (req, res) => {
 app.listen(port, () => {
   console.log(`Backend server running on http://localhost:${port}`);
 });
-
